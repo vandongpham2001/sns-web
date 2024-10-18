@@ -1,0 +1,33 @@
+{
+  "printWidth": 80,
+  "arrowParens": "always",
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "endOfLine": "auto",
+  "plugins": [
+    "@ianvs/prettier-plugin-sort-imports",
+    "prettier-plugin-tailwindcss"
+  ],
+  "trailingComma": "all",
+  "importOrder": [
+    "^react$",
+    "<BUILTIN_MODULES>",
+    "<THIRD_PARTY_MODULES>",
+    "",
+    "@/i18n",
+    "@/navigation",
+    "@/assets",
+    "@/hooks",
+    "@/shared/components",
+    "@/shared/container",
+    "@/store",
+    "@/utils",
+    "",
+    "^[../]",
+    "^[./]",
+    "",
+    "^(?!.*[.]css$)[./].*$",
+    ".css$"
+  ]
+}
